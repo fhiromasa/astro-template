@@ -3,14 +3,27 @@
 以下パッケージがインストール済みです。
 
 - Prettier
+- husky
 
 今後以下パッケージを追加していく予定です。
 
 - eslint
 - stylelint
-- husky
 
 [`Astro Starter Kit: Minimal`](https://github.com/withastro/astro/tree/main/examples/minimal) をもとに作成しました。
+
+## Developing
+
+```sh
+# package install
+npm install
+
+# prepare husky
+npm run prepare
+
+# start developing
+npm run dev
+```
 
 ## 🚀 Project Structure
 
