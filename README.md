@@ -1,13 +1,13 @@
 # Astro の開発テンプレートを作成しました。
 
-以下パッケージがインストール済みです。
+  以下パッケージがインストール済みです。
 
 - Prettier
 - husky
+- eslint
 
 今後以下パッケージを追加していく予定です。
 
-- eslint
 - stylelint
 
 [`Astro Starter Kit: Minimal`](https://github.com/withastro/astro/tree/main/examples/minimal) をもとに作成しました。
