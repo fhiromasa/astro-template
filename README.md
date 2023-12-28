@@ -4,10 +4,10 @@
 
 - Prettier
 - husky
+- eslint
 
 今後以下パッケージを追加していく予定です。
 
-- eslint
 - stylelint
 
 [`Astro Starter Kit: Minimal`](https://github.com/withastro/astro/tree/main/examples/minimal) をもとに作成しました。
