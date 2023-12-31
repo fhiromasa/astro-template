@@ -1,5 +1,7 @@
 ---
-
+import "@/styles/sample_reset.scss";
+import style from "@/styles/sample.module.scss";
+import { Image } from "astro:assets";
 ---
 
 <html lang="en">
@@ -11,6 +13,9 @@
     <title>Astro</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <h1 class="heading1">Astro</h1>
+    <p class={style.bg_black}>
+      <Image src="/favicon.svg" alt="astro logo" height={100} width={100} />
+    </p>
   </body>
 </html>
