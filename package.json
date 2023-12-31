@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint \"./src/\"",
     "stylelint": "stylelint \"./src/**/*.scss\""

@@ -5,9 +5,6 @@
 - Prettier
 - husky
 - eslint
-
-今後以下パッケージを追加していく予定です。
-
 - stylelint
 
 [`Astro Starter Kit: Minimal`](https://github.com/withastro/astro/tree/main/examples/minimal) をもとに作成しました。
@@ -17,9 +14,6 @@
 ```sh
 # package install
 npm install
-
-# prepare husky
-npm run prepare
 
 # start developing
 npm run dev
@@ -50,7 +44,7 @@ All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
+| `npm install`             | Installs dependencies and prepare husky          |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
