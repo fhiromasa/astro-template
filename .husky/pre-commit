@@ -8,4 +8,4 @@ if test $BRANCH_NAME = master -o $BRANCH_NAME = main -o $BRANCH_NAME = develop; 
   exit 1
 fi
 
-npm run format
+npx lint-staged
