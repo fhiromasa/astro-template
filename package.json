@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "postinstall": "husky install",
+    "prepare": "husky",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint \"./src/\"",
     "stylelint": "stylelint \"./src/**/*.scss\""
@@ -23,7 +23,7 @@
     "@typescript-eslint/parser": "^6.13.2",
     "eslint": "^8.55.0",
     "eslint-plugin-astro": "^0.30.0",
-    "husky": "^9.0.6",
+    "husky": "^9.0.11",
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.0",
     "prettier-plugin-astro": "^0.12.2",
