@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
-  "stylelint.validate": ["scss"],
-  "cSpell.words": ["astro", "astrojs", "stylelint"]
+	"editor.formatOnSave": true,
+	"stylelint.validate": ["scss"],
+	"cSpell.words": ["astro", "astrojs", "stylelint"]
 }

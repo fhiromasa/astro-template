@@ -1,11 +1,11 @@
 {
-  "recommendations": [
-    "astro-build.astro-vscode",
-    "stylelint.vscode-stylelint",
-    "usernamehw.errorlens",
-    "dbaeumer.vscode-eslint",
-    "streetsidesoftware.code-spell-checker",
-    "editorconfig.editorconfig"
-  ],
-  "unwantedRecommendations": []
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"stylelint.vscode-stylelint",
+		"usernamehw.errorlens",
+		"dbaeumer.vscode-eslint",
+		"streetsidesoftware.code-spell-checker",
+		"editorconfig.editorconfig"
+	],
+	"unwantedRecommendations": []
 }

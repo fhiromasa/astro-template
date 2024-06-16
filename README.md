@@ -23,8 +23,8 @@ npm run dev
 
 Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
+```sh
+./
 ├── public/
 ├── src/
 │   └── pages/

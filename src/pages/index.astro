@@ -1,21 +1,21 @@
 ---
-import "@/styles/sample_reset.scss";
-import style from "@/styles/sample.module.scss";
-import { Image } from "astro:assets";
+import '@/styles/sample_reset.scss';
+import style from '@/styles/sample.module.scss';
+import { Image } from 'astro:assets';
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body>
-    <h1 class="heading1">Astro</h1>
-    <p class={style["bg-black"]}>
-      <Image src="/favicon.svg" alt="astro logo" height={100} width={100} />
-    </p>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1 class="heading1">Astro</h1>
+		<p class={style['bg-black']}>
+			<Image src="/favicon.svg" alt="astro logo" height={100} width={100} />
+		</p>
+	</body>
 </html>
